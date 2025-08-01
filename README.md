@@ -28,3 +28,4 @@ Cada archivo HTML del portafolio original debe migrarse a un componente/página 
 
 ---
 ¡Listo para migrar y modernizar TwisoTech en React!
+git push -u origin main

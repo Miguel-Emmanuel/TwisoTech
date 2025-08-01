@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HelmetProvider, Helmet } from "react-helmet-async";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import PaginaServicios from "./pages/Servicios";
@@ -22,15 +21,9 @@ import ProyectoSitioConstructora from "./pages/ProyectoSitioConstructora";
 
 function App() {
   return (
-    <HelmetProvider>
-      <Helmet>
-        <title>TwisoTech</title>
-        <meta name="description" content="Soluciones inteligentes para un mundo digital." />
-        <link rel="icon" type="image/png" href="/logo-3d.png" />
-      </Helmet>
-      <Router>
-        <Layout>
-          <Routes>
+    <Router>
+      <Layout>
+        <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/servicios" element={<PaginaServicios />} />
             <Route path="/mision" element={<PaginaMision />} />
@@ -52,7 +45,6 @@ function App() {
           </Routes>
         </Layout>
       </Router>
-    </HelmetProvider>
   );
 }
 
