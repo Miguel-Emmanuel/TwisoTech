@@ -1,0 +1,27 @@
+# TwisoTech React (Vite)
+
+Este proyecto es la migración del portafolio TwisoTech a React usando Vite.
+
+## Stack y herramientas
+- **React** (Vite)
+- **Tailwind CSS**
+- **Animate.css**
+- **Google Fonts: Poppins**
+- **Assets**: imágenes, CSS y JS organizados en `public` y `src/assets`
+
+## Estructura recomendada
+- `/src/components` — Componentes reutilizables (Header, Footer, Menú, etc.)
+- `/src/pages` — Páginas principales (Inicio, Servicios, Proyectos, etc.)
+- `/src/assets` — Imágenes y recursos estáticos
+- `/public` — Archivos públicos y favicon
+
+## Migración
+Cada archivo HTML del portafolio original debe migrarse a un componente/página React, manteniendo la estructura visual, responsividad y efectos. Los estilos globales y utilidades deben integrarse con Tailwind y CSS propio.
+
+## Scripts
+- `npm run dev` — Iniciar servidor de desarrollo
+- `npm run build` — Generar build de producción
+- `npm run preview` — Previsualizar build
+
+---
+¡Listo para migrar y modernizar TwisoTech en React!

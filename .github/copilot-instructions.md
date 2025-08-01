@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For más detalles, visita https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+Este proyecto es una migración de un portafolio HTML/CSS a React con Vite. Usa Tailwind CSS, Animate.css y componentes reutilizables. Prioriza la conversión de cada página HTML a componentes/páginas React, manteniendo la estructura visual y responsividad original. Separa encabezado, footer y menús como componentes globales. Los assets deben estar en la carpeta `public` o `src/assets` según convenga.
